@@ -1,0 +1,35 @@
+.searchInputContainer {
+  display: flex;
+  align-items: center;
+}
+
+.searchInput {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+
+.copyButton {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #0069d9;
+  }
+
+  &:active {
+    background-color: #0059b3;
+  }
+
+  &:disabled {
+    background-color: #ccc;
+    color: #6c757d;
+    cursor: not-allowed;
+  }
+}

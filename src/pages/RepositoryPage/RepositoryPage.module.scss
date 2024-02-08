@@ -1,0 +1,54 @@
+.repositoryPage {
+  padding: 1rem;
+}
+
+.repositoryPage h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.repositoryPage button {
+  margin-right: 1rem;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #0069d9;
+  }
+
+  &:active {
+    background-color: #0059b3;
+  }
+
+  &:disabled {
+    background-color: #ccc;
+    color: #6c757d;
+    cursor: not-allowed;
+  }
+}
+
+.repositoryPage table {
+  width: 100%;
+  border-collapse: collapse;
+
+  th,
+  td {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+  }
+
+  th {
+    text-align: left;
+  }
+
+  td {
+    text-align: right;
+  }
+}
+
+
+
